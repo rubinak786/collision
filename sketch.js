@@ -9,7 +9,7 @@ movingRect.shapeColor="green";
 }
 
 function draw() {
-  background(255,255,255); 
+  background("black"); 
   movingRect.x= World.mouseX;
   movingRect.y = World.mouseY; 
   console.log(movingRect.x-fixedRect.x);
